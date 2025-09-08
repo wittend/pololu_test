@@ -5,4 +5,5 @@ set(CMAKE_C_STANDARD 11)
 
 add_executable(pololu_test main.c
         pololu_i2c.h
-        pololu_i2c.c)
+        pololu_i2c.c
+        LICENSE)
