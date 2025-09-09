@@ -319,7 +319,7 @@ int pololu_i2c_get_device_info( pololu_i2c_adapter *adapter, pololu_i2c_device_i
     return 0;
 }
 
-int pololu_i2c_scan( pololu_i2c_adapter *adapter, uint8_t *found_addresses, int max_devices )
+int pololu_i2c_scan(pololu_i2c_adapter *adapter, uint8_t *found_addresses, int max_devices)
 {
     if(!pololu_i2c_is_connected(adapter) || !found_addresses || max_devices <= 0)
     {
